@@ -1,4 +1,18 @@
 main {
-    background-color: rgb(131, 15, 239);
-
+    background-color: rgb(0, 0, 0);
 }
+main {
+    background-color: rgb(20, 241, 233);
+}
+footer{
+    background-color: rgb(15, 223, 209);
+}
+body{
+    background-color: rgb(131, 15, 239);
+} 
+ p{
+    color: aqua;
+ }
+ #logo{
+    width: 30%;
+ }
