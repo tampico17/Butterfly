@@ -110,9 +110,6 @@ footer img {
     font-style: italic;
     font-size: 14px;
 }
-
-/* RESPONSIVO */
-@media (max-width: 768px) {
     .produtos {
         flex-direction: column;
         align-items: center;
