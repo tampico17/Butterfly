@@ -1,4 +1,4 @@
-
+/* HEADER E MENU */
 header {
     background-color: rgb(180, 6, 255);
     padding: 20px;
@@ -7,6 +7,7 @@ header {
 
 nav ul {
     padding: 0;
+    margin: 0;
     list-style: none;
     text-align: center;
 }
@@ -29,6 +30,7 @@ nav a:hover {
     color: #ff0000;
 }
 
+/* LISTA DE PRODUTOS */
 .produtos {
     display: flex;
     flex-wrap: wrap;
@@ -71,6 +73,7 @@ nav a:hover {
     font-size: 18px;
 }
 
+/* IMAGENS */
 img {
     width: 100%;
     max-width: 300px;
@@ -78,6 +81,8 @@ img {
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    margin: 0 auto;
 }
 
 img:hover {
@@ -85,6 +90,28 @@ img:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
+/* FOOTER */
+footer {
+    background-color: #8d21c7;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+footer img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100px;
+}
+
+.copyright {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* RESPONSIVO */
 @media (max-width: 768px) {
     .produtos {
         flex-direction: column;
@@ -95,4 +122,3 @@ img:hover {
         width: 90%;
         max-width: 400px;
     }
-}
