@@ -3,7 +3,7 @@ body{
 }
 /* HEADER E MENU */
 header {
-    background-color: rgb(180, 6, 255);
+    background-color: rgb(156, 95, 255);
     padding: 20px;
     text-align: center;
 }
@@ -30,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff0000;
+    color: #d0ff00;
 }
 
 /* LISTA DE PRODUTOS */
@@ -95,7 +95,7 @@ img:hover {
 
 /* FOOTER */
 footer {
-    background-color: #8d21c7;
+    background-color: #622882;
     color: #ffffff;
     text-align: center;
     padding: 20px 10px;
@@ -196,3 +196,98 @@ footer img {
             font-style: italic;
             font-size: 14px;
         }
+        form input{
+            display: block;
+            font-size: 20px;
+            margin: 0 0 10px;
+        }
+        form input{
+            display: block;
+            margin: 0 0 20px;
+            padding: 10px  25px;
+            width: 50%;
+        }
+        /* FORMULÁRIO */
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ca93f6;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #eeff00;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus {
+    border-color: #f3a2ff;
+    outline: none;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #974bd1b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #a26cff;
+}
+
+/* FOOTER */
+footer {
+    background-color: #8f4ee3;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 14px;
+}
+
+footer img {
+    display: block;
+    margin: 15px auto 10px;
+    max-width: 100px;
+}
+
+footer .copyright {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produtos li {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
