@@ -41,25 +41,6 @@ header a {
     border-radius: 100px;
     
 }
-  
-/*estilo para o formulario*/ 
-form{
-    margin-bottom: 20px;
-    text-align: center;
-}
-/*Botão de enviar*/
-.enviar{
-    padding: 10px 20px;
-    background-color: #d61cd6
-    color; white;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.enviar:hover {
-    background-color: #6d2a72
-}
 /* Estilo para a tabela */
 table{
     width: 80%;
