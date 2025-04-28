@@ -42,3 +42,80 @@ header a {
     
 }
   
+/*estilo para o formulario*/ 
+form{
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*Botão de enviar*/
+.enviar{
+    padding: 10px 20px;
+    background-color: #d61cd6
+    color; white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.enviar:hover {
+    background-color: #6d2a72
+}
+/* Estilo para a tabela */
+table{
+    width: 80%;
+    margin: 0 auto;/* Centraliza a tabela */
+    border-collapse: collapse;
+}
+thead{
+    background-color: rgb(163, 42, 187);
+    color: white
+}
+table,th,td{
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+/*Linha zebrada para o corpo da tabela*/
+tbody tr:nth-child(even) {
+    background-color: hsla(293, 80%, 35%, 0.965)
+}
+/*Rodapé*/
+footer{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #991c1c;
+}
+footer img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+/*localização*/
+.localizacão{
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(177, 79, 216, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.localizacão h2 {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+.localizacão p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+}
+.localizacão iframe{
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    border: none;
+    border-radius: 8px;
+}
